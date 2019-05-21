@@ -1,0 +1,157 @@
+.tc_pxxmList {
+    text-align: center
+}
+
+.tc_bmfs_item p {
+    text-align: center
+}
+
+.tc_bmfs_item a {
+    text-align: center
+}
+
+@media screen and (max-width:750px) {
+    .tc_pxxm_bmfs_pc {
+        display: none
+    }
+    .tc_pxxm_bmfs_phone {
+        display: block
+    }
+    .tc_pxxm_bmfs_phone_title {
+        font-size: .3rem !important;
+        text-align: center !important;
+        color: #00beaf !important
+    }
+    .tc_bmfs_item_body {
+        text-align: center;
+        height: .8rem
+    }
+    .tc_bmfs_item_body1 {
+        text-align: center;
+        height: .8rem
+    }
+    .tc_bmfs_item_body p {
+        font-size: .2rem
+    }
+    .tc_bmfs_item_body1 p {
+        font-size: .2rem
+    }
+    .tc_bmfs_item_body_bt {
+        font-size: .2rem !important;
+        color: #00beaf !important;
+        background-color: #fff;
+        border: 0;
+        font-weight: 700;
+        cursor: pointer
+    }
+    .tc_bmfs_around {
+        width: 100%
+    }
+    .tc_bmfs .tc_bmfs_item {
+        width: 4.2rem;
+        height: 1.3rem;
+        border: solid 1px #dedede;
+        margin-bottom: .25rem
+    }
+    .tc_bmfs {
+        width: 4.2rem;
+        margin: 0 auto
+    }
+    .tc_bmfs_item_title {
+        height: .5rem;
+        font-size: .24rem !important;
+        background-color: #00beaf;
+        color: #fff !important;
+        line-height: .5rem !important
+    }
+    .tc_certificate_phone_div {
+        text-align: center;
+        margin-bottom: .6rem
+    }
+    .tc_certificate_phone {
+        width: 4.2rem;
+        height: .7rem;
+        padding: 0;
+        border: solid .01rem #00beaf;
+        border-radius: .08rem;
+        font-size: .28rem;
+        color: #f8f8f8;
+        text-align: center;
+        line-height: .7rem;
+        overflow: hidden;
+        background-color: #00BEAF
+    }
+    .trainCenterButton:hover {
+        background-color: #00988c
+    }
+    .tc_phone_para_border {
+        height: .2rem;
+        width: 100%;
+        background-color: #f7f5f5;
+        position: absolute;
+        top: 7.69rem;
+        left: 0
+    }
+    .tc_phone_para_border2 {
+        height: .2rem;
+        width: 100%;
+        background-color: #f7f5f5;
+        position: absolute;
+        top: 20.19rem;
+        left: 0
+    }
+    #phoneHtml {
+        position: relative;
+        min-height: 505px
+    }
+    .tc_pxxmList {
+        text-align: center;
+        margin-bottom: .2rem
+    }
+}
+
+@media screen and (min-width:750px) {
+    .tc_pxxm_bmfs_pc_title {
+        font-size: 16px !important
+    }
+    .tc_pxxm_bmfs_pc {
+        display: block
+    }
+    .tc_pxxm_bmfs_phone {
+        display: none
+    }
+    .tc_bmfs_item_body {
+        text-align: center;
+        height: 90px;
+        padding-top: 21px
+    }
+    .tc_bmfs_item_body1 {
+        text-align: center;
+        height: 90px;
+        padding-top: 32px
+    }
+    .tc_bmfs_item_body_bt {
+        font-size: 14px !important;
+        color: #00beaf !important;
+        background-color: #fff;
+        border: 0;
+        font-weight: 700;
+        cursor: pointer
+    }
+    .tc_bmfs .tc_bmfs_item {
+        width: 300px;
+        height: 140px;
+        border: solid 1px #dedede
+    }
+    .tc_bmfs {
+        width: 953px;
+        margin: 0 auto
+    }
+    .tc_bmfs_item_title {
+        height: 50px;
+        font-size: 16px !important;
+        background-color: #00beaf;
+        color: #fff !important;
+        line-height: 50px !important
+    }
+}

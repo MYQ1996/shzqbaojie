@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://alvarotrigo.com/fullPage/#firstPage -->
+<html lang="zh-CN">
+
+<head>
+    <title>忠群-您的生活好帮手！</title>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="author" content="Alvaro Trigo Lopez">
+    <meta name="Resource-type" content="Document">
+
+    <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+
+    <script type="text/javascript" src="./vendor/website/js/jquery.fullPage.min_688fc6d.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/jquery.easings.min_80a8980.js"></script>
+    <!--<script type="text/javascript" src="js/page.js"></script>-->
+    <script type="text/javascript">
+        if (window.screen.width <= 750) {
+            window.location.href = "enterprisservice-phone.html";
+        }
+    </script>
+
+    <script type="text/javascript" src="./vendor/website/js/jquery.cookie_119dc0f.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/login_59666bd.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/index_da6533b.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/ajax_b993318.js"></script>
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/style_168c937.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/reset_586b5ca.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/swiper-3.4.2.min_1650d8d.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/flex_433b2a6.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        #fullpage {
+            display: none;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/jquery.fullPage_9525770.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/page-animation_a91922d.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/index_3040e72.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/enterprisservice_f99c133.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/website/css/yjfk_3eef93e.css">
+
+    <body>
+        <!--[if lte IE 8]>
+<style>
+	.lowceng{display: block;}
+</style>
+<![endif]-->
+        <ul id="menu">
+            <li data-menuanchor="firstPage" class="active">
+                <a href="javascript:;" onclick="jp(1)"></a>
+            </li>
+            <li data-menuanchor="secondPage">
+                <a href="javascript:;" onclick="jp(2)"></a>
+            </li>
+            <li data-menuanchor="3rdPage">
+                <a href="javascript:;" onclick="jp(3)"></a>
+            </li>
+            <li data-menuanchor="4thpage">
+                <a href="javascript:;" onclick="jp(4)"></a>
+            </li>
+            <li data-menuanchor="5fivpage">
+                <a href="javascript:;" onclick="jp(5)"></a>
+            </li>
+        </ul>
+        <div class="feedback">
+            <div class="black"></div>
+            <div class="ceng">
+                <div class="line"></div>
+                <div class="closebtn3"></div>
+                <h4>意见反馈</h4>
+                <form class="formbox">
+                    <ul class="yjfkbox" id="yjfkItems">
+                    </ul>
+                    <textarea class="opinion" id="opinion" name="content" maxlength="200" placeholder="您的支持与宝贵的意见是我们改进的动力！"></textarea>
+                    <div class="codebox">
+                        <input type="text" class="obtain" id="obtainphone" placeholder="您的手机号">
+                        <input type="button" class="obtaincode" id="obtaincode" value="获取验证码">
+                    </div>
+                    <input type="text" class="code" id="code" placeholder="请输入验证码">
+                    <div style="clear: both;"></div>
+                    <input type="button" class="submitBtn" id="submitBtn" value="提交反馈" />
+                </form>
+            </div>
+        </div>
+        <!--<div class="lowceng">-->
+        <!--<div class="white"></div>-->
+        <!--<div class="low" >-->
+        <!--<a href="http://www.google.cn/intl/zh-CN/chrome/browser/"></a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--pc Header start-->
+        <div class="header headerqyfw">
+            <div class="topcenter">
+                <a href="index.html" class="logo"></a>
+                <div class="phonenum"></div>
+                <ul class="list">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="familyservice.html">家庭服务</a>
+                    </li>
+                    <li id="activityon" class="on">
+                        <a href="javascript:void(0)">企业服务</a>
+                    </li>
+                    <li>
+                        <a href="cityCooperation.html">城市合伙</a>
+                    </li>
+                    <li>
+                        <a href="aboutOur.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="trainCenter.html">平台培训中心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--pc Header end-->
+
+        <!--<div class="cengboxindex">-->
+        <!--</div>-->
+        <div class="entrybox">
+            <div class="scan">
+                <div class="scancode"></div>
+            </div>
+            <div class="wexin">
+                <div class="weixincode"></div>
+            </div>
+            <div class="top"></div>
+        </div>
+
+        <div id="fullpage" class="fullpage-wrapper">
+            <div class="section fp-section" data-anchor="firstPage">
+
+                <!--pc entertop start-->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide full-screen-width">
+                            <div class="entertopNew1" style="">
+                                <div class="entercenterNew">
+                                    <a onclick="order('AYB_QYCQBJ')"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide full-screen-width">
+                            <div class="entertopNew2">
+                                <div class="entercenterNew">
+                                    <a onclick="order('AYB_QYSS')"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide full-screen-width">
+                            <div class="entertopNew3">
+                                <div class="entercenterNew">
+                                    <a onclick="order('AYB_QYCQBJ')"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <!--&lt;!&ndash;&lt;!&ndash; 如果需要导航按钮 &ndash;&gt;&ndash;&gt;-->
+                    <!--<div class="swiper-button-prev"></div>-->
+                    <!--<div class="swiper-button-next"></div>-->
+                </div>
+                <!--pc entertop end-->
+            </div>
+            <div class="section fp-section" id="section2qyfw" data-anchor="secondPage">
+                <div>
+                    <div class="title titleqyfw">
+                        <h1>
+                            <img src="./vendor/website/img/servicesTitle_06e802b.png" />
+                        </h1>
+                        <p>针对企业实际需求，提供高品质的后勤服务</p>
+                    </div>
+                    <div>
+                        <img src="./vendor/website/img/charts_33b4fc7.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="section fp-section" data-anchor="3rdPage">
+                <!--pc entertit start-->
+                <div>
+                    <div class="title titleqyfw">
+                        <h1>
+                            <img src="./vendor/website/img/cooperationCase_e6ac3a0.png" style="height: 42px" />
+                        </h1>
+                        <p>数万家企业在享受忠群的品质服务</p>
+                    </div>
+                    <!--pc entertit end-->
+                    <!--phone entertit start-->
+                    <h4 class="entertit phone">企业后勤托管首选
+                        <br />80%以上的行政主管推荐使用</h4>
+                    <!--phone entertit end-->
+                    <div>
+                        <img src="./vendor/website/img/cooperationExample_aac21ba.png">
+                    </div>
+                    <!--phone enterlist start-->
+                    <div class="enterlist2">
+                        <div class="imgs">
+                            <div class="leftp">36Kr</div>
+                            <div class="righp">搜房</div>
+                        </div>
+                        <div class="imgs2">
+                            <div class="leftp">正邦</div>
+                            <div class="righp">优家</div>
+                        </div>
+                    </div>
+                    <!--phone enterlist end-->
+                    <!--phone logolist2 start-->
+                    <div class="logolist2">
+                        <img src="./vendor/website/img/qyfw22_bbd87e2.jpg" />
+                    </div>
+                    <!--phone logolist2 end-->
+                </div>
+            </div>
+            <div class="section fp-section" id="section4qyfw" data-anchor="4thpage">
+                <div class="title titleqyfw">
+                    <h1>
+                        <img src="./vendor/website/img/reason_8c0fd13.png" style="height: 42px" />
+                    </h1>
+                    <p>数万家企业在享受忠群的品质服务</p>
+                </div>
+                <div>
+                    <img class="bodyPic" src="./vendor/website/img/reasonForAyibang_23a694f.png" />
+                </div>
+            </div>
+            <div class="section fp-section" data-anchor="5fivpage">
+                <div class="">
+                    <div class="title titleqyfw title3qyfw">
+                        <h1>
+                            <img src="./vendor/website/img/fifthTitle_c0e211c.png" style="height: 42px" />
+                        </h1>
+                        <p>专业服务品质体验，企业管家1对1售前售后支持 选择忠群，省钱省心</p>
+                    </div>
+                    <div>
+                        <img class="orderWater1" src="./vendor/website/img/waterOrder_d583524.png" />
+                    </div>
+                    <div class="title2qyfw">
+                        <h1>
+                            <img src="./vendor/website/img/waterBottomTitle_7bcf7aa.png" />
+                        </h1>
+                        <a onclick="order('AYB_QYSS')">
+                            <img class="orderWater2" src="./vendor/website/img/waterOrderButton_8856671.png" />
+                        </a>
+                        <h1>
+                            <img src="./vendor/website/img/phonezx_9737192.png" />
+                        </h1>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footercenter">
+                        <p>©2018 忠群 京ICP备13032113 京公网安备11010802013311</p>
+                        <div class="footerList">
+                            <a href="http://www.octopusgame.com" target="_blank">八爪鱼手游大师</a>
+                            <span>|</span>
+                            <a href="javascript:void(0)" class="say">意见反馈</a>
+                            <span>|</span>
+                            <a href="aboutOur.html#history">发展历程</a>
+                            <span>|</span>
+                            <a href="aboutOur.html#media">媒体报道</a>
+                            <span>|</span>
+                            <a href="aboutOur.html#addour">加入我们</a>
+                            <span>|</span>
+                            <a href="userprotocol.html">用户协议</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lowceng">
+            <div class="white"></div>
+            <div class="low">
+                <a href="http://www.google.cn/intl/zh-CN/chrome/browser/"></a>
+                <a href="http://se.360.cn/"></a>
+                <a href="http://ie.sogou.com/"></a>
+                <a href="http://www.liebao.cn/"></a>
+                <a href="http://browser.qq.com/"></a>
+            </div>
+        </div>
+        <div class="cengboxindex">
+        </div>
+
+        <!-- <div class="qyfwYy-bj">
+            <div class="enterpriselogin">
+                <div class="black"></div>
+                <div class="ceng">
+                    <div class="line"></div>
+                    <div class="closebtn3" id="closebtnEn"></div>
+                    <h4>手机号验证</h4>
+                    <div class="tip">
+                        <span style="color: red;">温馨提示：</span>为保障您的预约信息完整，请先验证手机号
+                    </div>
+                    <form class="formlogin">
+                        <div class="qyfwContentList  tcf-flex tcf-drection-row tcf-align-items-center">
+                            <span class="qyfw-left">手机号</span>
+                            <input type="text" class="enphone qyfw-right-input phone" style="width: 300px;" id="enphone" placeholder="您的手机号">
+                        </div>
+                        <div class="qyfwContentList  tcf-flex tcf-drection-row tcf-align-items-center">
+                            <span class="qyfw-left">验证码</span>
+                            <input type="text" class="qyfw-right-input encode" id="encode" style="width: 300px;" placeholder="请输入验证码" autocomplete="off">
+                            <input type="button" class="enobtain" id="enobtain" value="获取验证码" style="cursor: pointer;">
+                        </div>
+                        <input type="button" class="submitBtn" id="loginSubmitBtn" value="验证" style="cursor: pointer;" />
+                    </form>
+                </div>
+            </div>
+            <div class="qyfwYyContent">
+                <img src="./vendor/website/img/close_7ceeed7.png" class="qyfw-close">
+                <div>
+                    <div style="margin-bottom:15px;">
+                        <span style="font-size:38px;">在线预约</span>
+                    </div>
+                    <div class="qyfw-top">
+
+                    </div>
+                    <div class="qyfwContentList  tcf-flex tcf-drection-row tcf-align-items-center">
+                        <span class="qyfw-left">所在城市</span>
+                        <select class="qyfw-right allCity" id='selectCity' onchange="intenChangeFn(this)"></select>
+                    </div>
+                    <div class="qyfwContentList  tcf-flex tcf-drection-row tcf-align-items-center">
+                        <span class="qyfw-left">手机号码</span>
+                        <input class="qyfw-right-input phone" id="inputPhone" onchange="intenChangeFn(this)">
+                    </div>
+                    <div class="qyfw-content">
+                    </div>
+
+                    <div>
+                        <span class="qyfw-left" style="visibility: hidden;">提交提交</span>
+                        <button class="qyfw-button" id="qyfwButton">提交</button>
+                    </div>
+                    <div style="line-height:20px;">
+                        <span class="qyfw-left" style="visibility: hidden;">提交提交</span>
+                        <span style="margin-left:5px;font-size:14px;width:350px;">您也可以拨打客服热线咨询：
+                            <span style="font-size:14px;color:#00beaf;">400-000-9898</span>
+                        </span>
+                    </div>
+                    <div style="margin-top:-30px;">
+                        <span class="qyfw-left" style="visibility: hidden;">提交提交</span>
+                        <span style="margin-left:5px;font-size:14px;">(周一至周日9:00-18:00)</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="successBox">
+                <img src="./vendor/website/img/close_7ceeed7.png" class="qyfw-close">
+                <div class="success-content">
+                    <img src="./vendor/website/img/dui_a51da84.png" class="success-img" />
+                    <p class="success-p">提交成功</p>
+                    <p class="success-s">提交成功，企业管家会尽快与您取得联系</p>
+                    <p class="success-time">工作时间：周一至周日9:00-18:00</p>
+                    <p class="success-phone">400-000-9898</p>
+                    <img src="./vendor/website/img/ma_9ce6617.png" class="success-ma" />
+                </div>
+            </div>
+
+        </div> -->
+
+        <script type="text/javascript" src="./vendor/website/js/swiper-3.4.2.min_0be277e.js"></script>
+        <script>
+            $(document).ready(function () {
+                var height = $(window).height();
+                $(".entertopNew1").height(height);
+                $(".entertopNew2").height(height);
+                $(".entertopNew3").height(height);
+                $('#fullpage').fullpage({
+                    sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#fff'],
+                    lockAnchors: true,
+                    menu: '#menu',
+                    css3: true,
+                    scrollingSpeed: 800,
+                    afterRender: function () {
+                        $('#fullpage').css("display", "block");
+                    },
+                    afterLoad: function (anchorLink, index) {
+                        var header = $('.headerqyfw');
+                        if (index == 1) {
+                            $(".top").hide();
+                            header.css("display", "block");
+
+                        } else {
+                            $(".top").show();
+                            header.css("display", "none");
+                        }
+                    },
+                    afterResize: function () {
+                        var height = $(window).height();
+                        //屏幕高度变化时，正常pc屏幕高度662px,当屏幕过小时，为了防止轮播图的背景图片变形，图片的高度不发生变化
+                        $(".entertopNew1").height(height);
+                        $(".entertopNew2").height(height);
+                        $(".entertopNew3").height(height);
+
+                    }
+                });
+                $('.top').click(function () {
+                    $.fn.fullpage.moveTo(1);
+                })
+                var mySwiper = new Swiper('.swiper-container', {
+                    direction: 'horizontal',
+                    loop: true,
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    autoplay: 5000,
+                })
+                $('.swiper-container').mouseenter(function () {
+                    mySwiper.stopAutoplay();
+                }).mouseleave(function () {
+                    mySwiper.startAutoplay();
+                });
+            })
+
+            function jp(index) {
+                $.fn.fullpage.moveTo(index);
+            }
+        </script>
+    </body>
+
+    <script type="text/javascript" src="./vendor/website/js/comment_84f4a6f.js"></script>
+    <script src='http://static.hybrid.xiaomi.com/routerinline.min.js'></script>
+
+    <script type="text/javascript" src="./vendor/website/js/zepto_a52cd15.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/touch_682a21e.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/script_717bbf7.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/libs/md5_28e905f.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/libs/sha1_2038105.js"></script>
+    <script type="text/javascript" src="./vendor/website/js/enterprisservice_ba43187.js"></script>
+    <script>
+        appRouter("com.ayibang.aybNewApp", "/");
+    </script>
+
+</html>
